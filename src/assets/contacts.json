@@ -5,7 +5,8 @@
     "lastName": "Phan",
     "email": "lphan@shift3tech.com",
     "phone": "(559) 222-2222",
-    "editing": false
+    "editing": false,
+    "owed":100
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "lastName": "Tyson",
     "email": "mike@yahoo.com",
     "phone": "(559) 222-1111",
-    "editing": false
+    "editing": false,
+    "owed":50
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "lastName": "Biden",
     "email": "jbiden@yahoo.com",
     "phone": "(559) 111-2121",
-    "editing": false
+    "editing": false,
+    "owed":200
   }
 ]

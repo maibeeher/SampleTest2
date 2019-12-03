@@ -12,7 +12,11 @@ export class HomeComponent implements OnInit {
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-
+// this.activatedRoute.params.subscribe((sss) => {
+//   this.data = sss;
+//   console.log('this.data from home....', this.data);
+// });
+this.data = JSON.parse(localStorage.getItem('calculatedData'));
   }
 
 }
